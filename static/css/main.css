@@ -1,0 +1,84 @@
+@font-face {
+    font-family: YekanBakhVF;
+    src: url('fonts/ttf/YekanBakh-VF-1.ttf');
+}
+
+body {
+    direction: rtl;
+    background-color: #F3F8FF;
+}
+.login-form-post {
+    max-width: 600px;
+  margin: auto;
+}
+.match-card {
+    border: 2px solid #284B8C;
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.match-card-item {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid  #284B8C;
+    padding-bottom: 20px;
+}
+
+.profile-section {
+    background-color: white;
+    border: 1px solid #284B8C;
+    border-radius: 16px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.btn-prim {
+    background-color: #E63136;
+    border-radius: 8px;
+    padding: 8px 20px;
+    color: white;
+    border: 2px solid #284B8C;
+}
+
+.modal-header .btn-close {
+    margin: unset;
+    margin-right: auto;
+}
+
+.login-form {
+    background-color: white;
+    margin: 40px 20px;
+    border-radius: 24px;
+    border: 2px solid #284B8C;
+    padding: 20px 10px;
+}
+.login-form label {
+    margin-right: 10px;
+}
+
+
+.login-form .form-floating {
+    padding: 0;
+}
+
+body {
+    /* background: url(../img/logo.png) repeat; */
+    /* background-size: 20%; */
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.match-card-item button {
+    background-color: transparent;
+    color: black;
+}
+
+.match-card-item button:hover {
+    background-color: #284B8C;
+    color: white;
+}
+
+p,h1,h2,h3,h4,h5 {
+    font-family: YekanBakhVF;
+}
