@@ -21,5 +21,5 @@ from .views import index, login, reward_calculation
 urlpatterns = [
     path('', index, name='index'),
     path('login/', login, name='login'),
-    path('reward/', reward_calculation, name='reward-calculation'),
+    path('result/', reward_calculation, name='reward-calculation'),
 ]
